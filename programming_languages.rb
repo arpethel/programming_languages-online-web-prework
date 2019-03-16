@@ -7,10 +7,18 @@ def reformat_languages(languages)
   languages.each do |lang_k, lang_v|
     new_hash.merge!(lang_v)
   end
+  new_hash.each do |languages, values|
+      binding.pry
+      # add languages keys as values of the new_hash
+      # merging into the new_hash basically ".shift"s the languages hash
+      # add :style to ..
+      # basically, new_hash[:languages][:style] = {:oo}
+      # if type == "interpreted", set style for hash as ":oo"
+      # if languages == :javascript
+      #
+      # end
 
-  # new_hash.each do |languages, values|
-  #   puts values
-  # end
 
-  return new_hash
+    end
+    return new_hash
 end
