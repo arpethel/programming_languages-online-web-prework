@@ -10,8 +10,7 @@ def reformat_languages(languages)
       new_hash_v[style] ||=[]
       new_hash_v[style] << k
     end
-
-
+    return new_hash_v
   end
 
 end
