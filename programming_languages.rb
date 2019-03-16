@@ -20,7 +20,7 @@ end
   # end
 
   # new_hash.each do |lang, values|
-  #   
+  #
   # end
 
 #   return new_hash
