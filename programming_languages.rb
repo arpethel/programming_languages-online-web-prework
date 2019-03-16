@@ -1,7 +1,7 @@
 require "pry"
 
 def reformat_languages(languages)
-  def reformat_languages(languages)
+  
   new_hash_v = {}
   languages.each do |k, v|
     v.each do |lang|
@@ -12,7 +12,6 @@ def reformat_languages(languages)
 
   end
 
-end
 end
 
 # puts reformat_languages(languages)
