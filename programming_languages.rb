@@ -15,11 +15,12 @@ def reformat_languages(languages)
   new_hash = {}
   languages.each do |lang_k, lang_v|
     new_hash.merge!(lang_v)
-    binding.pry
-    new_hash[lang_k][:style]
+    # binding.pry
+    # new_hash[lang_k][:style]
     # new_hash[:style] ||= []
     # new_hash[:style] << lang_k
   end
+
   return new_hash
 end
 
