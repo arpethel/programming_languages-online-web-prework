@@ -8,7 +8,7 @@ def reformat_languages(languages)
     new_hash.merge!(lang_v)
   end
   new_hash.each do |languages, values|
-      # binding.pry
+      binding.pry
       # add languages keys as values of the new_hash
       # merging into the new_hash basically ".shift"s the languages hash
       # add :style to ..
