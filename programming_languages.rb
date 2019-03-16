@@ -12,7 +12,7 @@ def reformat_languages(languages)
   #   end
   #   return new_hash_v
   # end
-
+  new_hash = {}
   languages.each do |lang_k, lang_v|
     new_hash.merge!(lang_v)
     binding.pry
