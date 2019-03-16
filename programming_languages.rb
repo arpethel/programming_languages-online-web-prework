@@ -20,7 +20,7 @@ def reformat_languages(languages)
     # new_hash[:style] ||= []
     # new_hash[:style] << lang_k
   end
-
+  return new_hash
 end
 
 # puts reformat_languages(languages)
