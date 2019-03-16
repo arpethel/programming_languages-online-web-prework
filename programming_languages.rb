@@ -4,9 +4,12 @@ def reformat_languages(languages)
   def reformat_languages(languages)
   new_hash_v = {}
   languages.each do |k, v|
+    v.each do
+      new_hash_v[v] = {}
+      binding.pry
+    end
 
-    new_hash_v[v] = {}
-    binding.pry
+
   end
 
 end
