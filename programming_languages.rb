@@ -8,7 +8,7 @@ def reformat_languages(languages)
       binding.pry
       new_hash_v[lang] = {}
       new_hash_v[:style] ||= []
-      new_hash_v[style] << k
+      new_hash_v[:style] << k
     end
     return new_hash_v
   end
